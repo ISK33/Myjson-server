@@ -1,6 +1,5 @@
+//request payload
 {
-  "employees": [
-   {
     "user": {
         "email": "test1@example.com",
         "password": "secret1234",
@@ -8,7 +7,7 @@
     }
 }
 
-
+//response payload
 
 {
     "data": {
@@ -18,6 +17,4 @@
         "renewal_token": "SFMyNTY.YzQ3YWZkODgtYTJjNS00YTVlLTkyYjAtM2Y1M2I1Mzg2Njc2.pgYmvVp0eavCT3GyzPr4ZKLM8fznHgZWwtg3It5LNEs",
         "type": "customer"
     }
-}
-  ]
 }
