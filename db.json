@@ -1,22 +1,20 @@
+//request payload
 {
-    "Title": "The Cuckoo's Calling",
-    "Author": "Robert Galbraith",
-    "Genre": "classic crime novel",
-    "Detail": {
-        "Publisher": "Little Brown",
-        "Publication_Year": 2013,
-        "ISBN-13": 9781408704004,
-        "Language": "English",
-        "Pages": 494
-    },
-    "Price": [
-        {
-            "type": "Hardcover",
-            "price": 16.65
-        },
-        {
-            "type": "Kidle Edition",
-            "price": 7.03
-        }
-    ]
+    "user": {
+        "email": "test1@example.com",
+        "password": "secret1234",
+        "password_confirmation": "secret1234"
+    }
+}
+
+//response payload
+
+{
+    "data": {
+        "access_token": "SFMyNTY.NDg4NDg5NGQtY2FmYy00MzBkLThlZWYtYTNiY2E5YmZhY2Y4.R9YwrQ8kFDrQ4cuJG95c-1hwlksuvTGH6DZR7d-et34",
+        "email": "test10@example.com",
+        "id": 17,
+        "renewal_token": "SFMyNTY.YzQ3YWZkODgtYTJjNS00YTVlLTkyYjAtM2Y1M2I1Mzg2Njc2.pgYmvVp0eavCT3GyzPr4ZKLM8fznHgZWwtg3It5LNEs",
+        "type": "customer"
+    }
 }
